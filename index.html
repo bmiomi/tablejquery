@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+
+<!--     <link rel="stylesheet" href="/static/Css/css.css">  -->
+    <title>Prueva 1</title>
+</head>
+<body>
+
+<div class="container">
+
+    <div class=form-group><!--Cabecera -->
+        <form action="">
+        <label for="productos">Productos</label>
+        <input id="inproductos" type="text" value="">
+        <button type='submit'>Send</button>
+    </form>
+    </div><!--fin de cabecera-->
+
+    <div class="table"><!--Cuerpo o tabla de Productos-->
+        <table class="dataTable productos mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2d" >
+            <thead>
+                <tr>
+                <th class='mdl-data-table__cell--non-numeric'>Cantidad</th>
+                <th>Descripcion</th>
+                <th >Precio Venta</th>
+                <th>Total </th>
+            </tr>
+            </thead>
+            
+            <tbody align="center">
+          
+            </tbody>
+        </table>
+    
+<!--Cuerpo o tabla-valores de Productos-->
+<div class="table-valores">
+        <table class ="dataTable sumatoria mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2d">
+            <tbody >
+                <tr>
+                    <th>Subtotal</th>
+                    <td class="subtotal mdl-data-table__cell--non-numeric">$ </td>
+                </tr>
+                <tr>
+                    <th>Iva</th>
+                    <td class="iva mdl-data-table__cell--non-numeric">$ </td>
+                </tr>
+                
+                <tr>
+                    <th>Total</th>
+                    <td class="Total mdl-data-table__cell--non-numeric">$ </td>
+                </tr>
+            </tbody>
+        </table>
+    </div><!--fin de tabla-resultado -->    
+    </div><!--fin de tabla datos-->
+
+</div><!--fin de tabla productos-->
+
+
+
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.18/datatables.min.js"></script>
+<script src="/static/js/js.js"></script>
+</body>
+</html>
