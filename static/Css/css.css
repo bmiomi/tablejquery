@@ -1,14 +1,14 @@
 body{
     margin:0 auto ;
+
 }
 
 .container{
-    border:  black dotted ;
+
     width: 100%;
     height:auto;
     max-width: 10000px;
     overflow: hidden;
-    margin: 0 auto;
     box-sizing: border-box;
 }
 /* */
@@ -16,9 +16,8 @@ body{
     
     overflow: hidden;
     width: 30%;
-    border: #2888c4 solid;
     text-align: center;
-    margin: 10px 10px;
+    margin: 15px auto;
 
 }
 
@@ -29,34 +28,16 @@ body{
 /*table */
 
 .table{
-    border: red solid;
+    margin: 0 auto;
     overflow:hidden;
     width: 50%;
 }
-
-/*aside*/
-
-aside{
-    border: solid papayawhip;
-    width: 20%;
-
-}
-
-
-
-
-
-
-
-
-
 
 .dataTable{
 border-collapse: separate; /* separate  que los bordes del de la tabla* deben estar seprados */
 opacity: 0.9;
 width:100%; 
 table-layout: fixed;
-whi
 }
 
 th, td{
